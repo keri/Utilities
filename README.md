@@ -1,2 +1,7 @@
 # Utilities
-Useful functions that I use regularly 
+## MatPlotLib Functions
+## Machine Learning Pipelines
+## Pandas Functions
+## Numpy Functions
+
+
