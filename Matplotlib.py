@@ -1,3 +1,12 @@
+import matplotlib.pyplot as plt
+%matplotlib inline
+import numpy as np
+import random
+import scipy.stats as scs
+probabilities = np.arange(.58,.3,-.16)
+random.shuffle(probabilities)
+
+
 '''Creating a plot using for multiple lines using the a continuous X axis with linspace and getting values 
 for the y from distributions'''
 
