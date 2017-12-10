@@ -7,7 +7,7 @@ probabilities = np.arange(.58,.3,-.16)
 random.shuffle(probabilities)
 
 
-'''Creating a plot using for multiple lines using the a continuous X axis with linspace and getting values 
+'''Creating a plot using for multiple lines using the a continuous X axis with linspace and getting values
 for the y from distributions'''
 
 def plot_distribution(dist, params, colorList):
@@ -24,6 +24,3 @@ def plot_distribution(dist, params, colorList):
     ax.legend(title=r"($\alpha,\beta$)", loc="upper left")
     ax.set_xlabel("p")
     ax.set_ylabel("pdf")
-    
-    
-
