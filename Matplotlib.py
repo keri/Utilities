@@ -1,5 +1,5 @@
-##Creating a plot using for multiple lines using the a continuous X axis with linspace and getting values 
-for the y from distributions
+'''Creating a plot using for multiple lines using the a continuous X axis with linspace and getting values 
+for the y from distributions'''
 
 def plot_distribution(dist, params, colorList):
     fig, ax = plt.subplots(figsize=(10,5))
@@ -17,4 +17,4 @@ def plot_distribution(dist, params, colorList):
     ax.set_ylabel("pdf")
     
     
-    
+
