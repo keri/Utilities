@@ -7,10 +7,9 @@ probabilities = np.arange(.58,.3,-.16)
 random.shuffle(probabilities)
 
 
-'''Creating a plot using for multiple lines using the a continuous X axis with linspace and getting values
-for the y from distributions'''
-
 def plot_distribution(dist, params, colorList):
+    '''Creating a plot using for multiple lines using the a continuous X axis with linspace and getting values
+    for the y from distributions. Takes a distribution with only 2 parameters'''
     fig, ax = plt.subplots(figsize=(10,5))
     x = np.linspace(0,1,100)
     zipped_all = list(zip(params, colorList))
