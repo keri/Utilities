@@ -6,3 +6,9 @@ def convert_date_time(df, column, new_column_name, days):
     df[column] = pd.to_datetime(df[column])
     df[new_column_name] = (df[column].max() - df[column])  > dtm.timedelta(days)
     return(df)
+
+def convert_to_mean(df,column):
+    
+'''converts all features to mean except the column listed to NOT convert. This is to have compare one feature at a time when all values from other features are held constant.'''
+
+    pass
